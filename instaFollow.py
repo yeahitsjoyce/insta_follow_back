@@ -11,13 +11,13 @@ following_json = json.load(following)
 # Global since multiple functions utilize the contents of this set
 set_of_non_mutuals = set()
 
-"""
-Sorts through the following and compares it to the followers to check if the following
-user follows the account back. If the user is in the following but not  followers,
-we add them to the set of non mutuals.
-"""
 def check_all_non_mutuals(clean = 1):
-
+    
+    """
+    Sorts through the following and compares it to the followers to check if the following
+    user follows the account back. If the user is in the following but not  followers,
+    we add them to the set of non mutuals.
+    """
     set_of_following = set()
     set_of_followers = set()
 
@@ -40,15 +40,17 @@ def check_all_non_mutuals(clean = 1):
             print(user)
 
 
-"""
-This function checks all non mutual accounts, sorts them how the user wants,
-and then prints them out.The user can display all non mutuals, or sort them by
-starting character. This allows for user readablility and for the user to be able
-to break their non mutuals down into shorter chunks in the event they have a
-large set of non mutuals.
-"""
+
 
 def check_all_non_mutuals_of_starting_char():
+    """
+    This function checks all non mutual accounts, sorts them how the user wants,
+    and then prints them out.The user can display all non mutuals, or sort them by
+    starting character. This allows for user readablility and for the user to be able
+    to break their non mutuals down into shorter chunks in the event they have a
+    large set of non mutuals.
+    """
+    
     list_of_char_names = []
     print("You will be prompted to enter a character of the starting letter of a username")
     print("if you dont have a prefered character, just press enter")
