@@ -90,5 +90,3 @@ while run:
         run = False
 
 os.system('cls' if os.name == 'nt' else 'clear')
-# followers: {'title': '', 'media_list_data': [], 'string_list_data': [{'href': 'https://www.instagram.com/easterx__', 'value': 'easterx__', 'timestamp': 1533185410}]}]}
-# following: {'title': '', 'media_list_data': [], 'string_list_data': [{'href': 'https://www.instagram.com/richardcaseykim', 'value': 'richardcaseykim', 'timestamp': 1619306998}]}]}
