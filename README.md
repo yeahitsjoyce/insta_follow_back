@@ -5,7 +5,7 @@ instagram following/follower data in order to see who doesn't follow them back
 
 I was inspired to make this because Instagram has a cap on the number of users a single user can follow,
 and I tend to reach that count. I needed people to unfollow, but I didnt want to sever the already lasting
-relationships, so I needed to unfollow users I dont already follow.
+relationships, so I needed to unfollow users who dont already follow me back.
 Instagram has limited sorting features for followers, so I made an interactive and user friendly way to sort
 through non mutual follows.
 
